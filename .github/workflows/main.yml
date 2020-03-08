@@ -1,0 +1,41 @@
+name: Publish
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.13]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install, build, and test
+      run: |
+        cd website
+        npm ci
+        npm run build
+      env:
+            CI: true
+#    - name: publish-to-git
+#      uses: seanmiddleditch/gha-publish-to-git@v1
+#      with:
+#        repository: tokenyz-ventures-limited/MFCP
+#        branch: gh-pages
+#        github_token: '${{ secrets.GT }}'
+#        source_folder: website/build/MFCP
+    - name: GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1.2.5
+      with:
+        repo: FlakeNetwork/FlakeSite-Live
+        target_branch: gh-pages
+        build_dir: website/build/MFCP 
+      env:
+        GITHUB_PAT: ${{ secrets.GT }}
