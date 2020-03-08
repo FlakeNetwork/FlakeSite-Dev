@@ -1,0 +1,9 @@
+{
+  "about": {
+    "About": ["about/about" ]
+  },
+  "protocol": {
+    "Protocol": [ "protocol/protocol" , "protocol/architecture" ],
+    "Authentication-Protocol": [ "protocol/governance" ]
+  }
+}

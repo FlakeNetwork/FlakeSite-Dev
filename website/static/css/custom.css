@@ -1,0 +1,108 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.fixedHeaderContainer {
+    background: #fff;
+}
+
+.navigationSlider .slidingNav ul li > a:focus,
+.navigationSlider .slidingNav ul li > a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive > a,.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+    background: #FFF;
+}
+
+h1 { font-family: QSRoboto }
+h2 { font-family: QSRoboto }
+h3 { font-family: QSRobotoN2 }
+p { font-family: QSRobotoN1 }
+
+@font-face {
+    font-family: QSRoboto;
+    src: url("/fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: QSRobotoN1;
+    src: url("/fonts/Roboto/Roboto-Light.ttf");
+    font-size: medium;
+}
+
+@font-face {
+    font-family: QSRobotoN2;
+    src: url("/fonts/Roboto/Roboto-Light.ttf");
+    font-size: xx-large;
+}
+
+h1 { font-family: QSRoboto; color : "#000"; }
+h2 { font-family: QSRoboto; }
+h3 { font-family: QSRobotoN2;}
+p { font-family: QSRobotoN1; }
+
+.navigationSlider .slidingNav ul{
+    background: #FFF;
+}
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #3e33e3;
+}
+
+.toc .toggleNav ul li.navListItemActive a::selection {
+    color: #3e33e3;
+}
+
+.toc .toggleNav ul li.navListItemActive a{
+    color: #5566AA;
+}
+
+.toc .toggleNav ul li a:hover {
+    color: #3e33e3;
+}
+
+.blockContent{
+    text-align: justify;
+}
+.button:hover {
+    color: #3e33e3;
+}
+.headerTitleWithLogo  {
+    color:#000;
+}
+.button {
+    color: #000;
+    border: 1px solid #aaa;
+}
+.navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+    color : #3e33e3;
+}
+.navigationSlider .slidingNav ul li a{
+    color:#000;
+}
+.projectTitle { color: #000;}
+
+.productShowcaseSection h2 {
+    color : #000;
+}
