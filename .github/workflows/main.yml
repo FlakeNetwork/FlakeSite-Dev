@@ -36,6 +36,6 @@ jobs:
       with:
         repo: FlakeNetwork/FlakeSite-Live
         target_branch: gh-pages
-        build_dir: website/build/MFCP 
+        build_dir: website/build/Flake 
       env:
         GITHUB_PAT: ${{ secrets.GT }}
