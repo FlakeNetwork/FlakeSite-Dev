@@ -21,7 +21,7 @@ const users = [
 const siteConfig = {
   title: 'Flake Network', // Title for your website.
   tagline: 'The Decentralised Authentication Network',
-  url: 'https://FlakeNetwork.github.io/', // Your website URL
+  url: 'https://flake.network/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -77,7 +77,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Flake Network  `,
+  copyright: `Copyright © ${new Date().getFullYear()} Flake Network Inc `,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
