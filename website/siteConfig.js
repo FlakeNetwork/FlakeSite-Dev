@@ -77,7 +77,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Flake Network Inc `,
+  copyright: `Copyright © ${new Date().getFullYear()} Flake Network`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
